@@ -173,10 +173,30 @@ span {
 
 
 /* Project */
+.section-project {
+    padding: 100px 0;
+}
+
+.project-item {
+    padding: 70px 0;
+}
+
+.project-item .title {
+    font-size: 50px;
+}
+
+.project-item .title-description {
+    font-size: 14px;
+}
+
+.project-item .description {
+    font-size: 16px;
+}
 
 .img-github {
-    width: 20px;
+    width: 18px;
     height: auto;
+    margin-bottom: 3px;
 }
 
 .img-project {
