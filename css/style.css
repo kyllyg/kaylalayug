@@ -191,6 +191,7 @@ span {
 
 .project-item .description {
     font-size: 16px;
+    max-width: 450px;
 }
 
 .img-github {

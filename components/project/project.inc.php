@@ -6,7 +6,7 @@
       <!-- <span class="line"></span> -->
       <div class="project-list">
         <div class="project-item">
-          <div class="project-content-wrapper d-flex flex-row">
+          <div class="project-content-wrapper d-flex justify-content-between">
             <div class="project-content-holder">
               <p>Project</p>
               <h4 class="title">BreadInbox</h4>
@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="project-item">
-          <div class="project-content-wrapper d-flex flex-row">
+          <div class="project-content-wrapper d-flex justify-content-between">
             <div class="project-content-holder">
               <p>Project</p>
               <h4 class="title">Voting System</h4>
