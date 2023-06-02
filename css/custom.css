@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Poppins:wght@200;300&display=swap');
-
 * {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .navbar-logo {
@@ -42,35 +40,57 @@
     display: block;
 }
 
+.navbar-toggler-icon {
+  width: 15px;
+  height: auto;
+  padding: auto;
+}
+
 .emoji {
     width: 20px;
     margin: 5px;
 }
 
 .section-hero {
-    padding: 200px 0;
+    padding: 100px 0;
 }
 
-.title {
-    font-size: 100px;
+.section-hero .title {
+    font-size: 80px;
 }
 
-.subtitle {
-    font-size: 25px;
+.section-hero .subtitle {
+    font-size: 20px;
 }
 
-span {
+.img-hero .image {
+    width: 350px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.star {
+    width: 100px;
+}
+
+.highlight-title {
     background-color: #FDD689;
     padding: 0 20px;
+    font-weight: 600;
 }
 
 .social-link-list img{
     width: 20px;
-    
+    color: #000000;
 }
 .social-link-item {
     padding: 2px;
 }
+
+.social-text {
+    font-size: 16px;
+}
+
 .image {
     border-radius: 50%;
 }
@@ -84,11 +104,8 @@ span {
 }
 
 .description {
-    font-size: 20px;
-}
-
-span {
-    font-weight: bold;
+    font-size: 16px;
+    max-width: 445px;
 }
 
 .icon {
@@ -137,44 +154,48 @@ span {
   min-height: 150px;
 }
 
-.contact-card {
-  padding: 0;
-  margin: 130px 60px 130px 0;
-  width: 800px;
+.contact .contact-card {
   border: 3px solid #FDD689;
   border-bottom: 10px solid #FDD689;
   border-right: 10px solid #FDD689;
   border-radius: 20px;
 }
-
-.contact-card h2 {
-  font-size: 60px;
+.contact .title {
+  font-size: 32px;
 }
 
-.contact-card a {
+.contact .email {
+  font-size: 15px;
   color: #000000;
-  font-size: 20px;
-}
-
-.contact-card p {
-  margin: 0;
 }
 
 .contact-card img {
- width: 150px;
- height: auto;
- justify-content: end;
+  width: 100px;
+  max-width: 100%;
 }
 
 .footer {
-    background: #fcf0d9;
-    padding: 50px;
+  background: #FDD689;
+  padding: 40px 0;
+}
+
+.footer .social-link-item i {
+    color: #000000;
+    font-size: 25px;
+}
+
+.footer .navbar-logo {
+    font-size: 35px;
+}
+
+.copyright-text {
+    font-size: 13px;
 }
 
 
 /* Project */
 .section-project {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .project-item {

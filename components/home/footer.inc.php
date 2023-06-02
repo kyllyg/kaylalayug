@@ -1,15 +1,16 @@
 <section class="footer">
   <div class="container d-flex flex-row justify-content-between">
     <div class="text-holder">
-    <a href="" class="navbar-logo">&lt;kaylalayug&gt;</a>
-    <p>© 2022 Built and designed by Kayla Layug</p>
+    <a href="./index.php" class="navbar-logo">&lt;kaylalayug&gt;</a>
+    <p class="copyright-text">© 2022, Built and designed by <br> Kayla Layug</p>
   </div>
   <div class="social-holder">
-    <p>Get in touch</p>
+    <p class="social-text fw-bold">Get in touch</p>
     <div class="social-link-list">
-      <a class="social-link-item" href="https://www.instagram.com/kaylalayug/"><img src="img/instagram.svg" alt=""></a>
-      <a class="social-link-item" href="https://www.facebook.com/LayugKayla18/"><img src="img/facebook.svg" alt=""></a>
-      <a class="social-link-item" href="https://m.me/LayugKayla18"><img src="img/messenger.svg" alt=""></a>
+      <a class="social-link-item" href="https://github.com/kyllyg"><i class="fa-brands fa-github"></i></a>
+      <a class="social-link-item" href="https://wa.me/+639363143616"><i class="fa-brands fa-whatsapp"></i></a>
+      <a class="social-link-item" href="https://www.linkedin.com/in/kayla-layug-552897240/"><i class="fa-brands fa-linkedin"></i></a>
+      <a class="social-link-item" href="mailto:kaylalayug018@gmail.com"><i class="fa-solid fa-envelope"></i></a>
     </div>
   </div>
   </div>

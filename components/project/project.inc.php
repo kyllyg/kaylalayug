@@ -1,9 +1,9 @@
-<section class="section-project">
+<section class="section-project" id="section-project">
   <div class="container">
     <h1>Personal Projects</h1>
     <div class="project-content">
       <h5>Some Things I've Built</h5>
-      <!-- <span class="line"></span> -->
+      <span class="line"></span>
       <div class="project-list">
         <div class="project-item">
           <div class="project-content-wrapper d-flex justify-content-between">
